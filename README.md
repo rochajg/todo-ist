@@ -1,6 +1,6 @@
 # todo-ist
 
-> A Vue.js project
+> Uma simples aplicação de lista de tarefas ultilizando conceitos de PWA com VueJS
 
 ## Build Setup
 
