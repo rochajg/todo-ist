@@ -15,4 +15,15 @@ export default {
 		}
 	}
 }
+
+let todos = []
+let todo = {
+	title: 'Comprar leite',
+	date: new Date(),
+	done: false,
+	expires: new Date(2018, 9, 17),
+	hidden: false
+}
+todos.push(todo)
+localStorage.setItem('todos', JSON.stringify(todos))
 </script>
