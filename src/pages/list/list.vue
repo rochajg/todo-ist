@@ -2,8 +2,9 @@
   <main>
 		<div class="row">
 			<div class="col s12">
-				<newTodoItem />
+				<h3 class="center-align">Lista De Tarefas</h3>
 			</div>
+			<newTodoItem class="col s12" />
 			<div class="col s12">
 				<ul class="collection">
 					<todoItem class="collection-item" v-for="todo in todos" 

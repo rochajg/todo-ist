@@ -1,10 +1,19 @@
 <template>
-  <p>
-    <label>
+  <li class="row">
+    <label class="col s1">
       <input type="checkbox" v-model="todo.done"/>
-      <span v-bind:class="{marked: todo.done}">{{todo.title}} - {{moment(todo.expires).format('DD/MM/YYYY')}}</span>
+      <span></span>
     </label>
-  </p>
+    <div class="col s9">
+      <span class="row">
+        <span class="col s8" v-bind:class="{marked: todo.done}">{{todo.title}}</span>
+        <span class="col s4" v-bind:class="{marked: todo.done}">{{moment(todo.expires).format('DD/MM/YYYY')}}</span>
+      </span>
+    </div>
+    <span class="col s2">
+      <a class="waves-effect waves-light red lighten-1 btn btn-small"><i class="tiny material-icons">delete</i></a>
+    </span>
+  </li>
 </template>
 
 <script>
