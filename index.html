@@ -33,10 +33,12 @@
     <noscript>
       This is your fallback content in case JavaScript fails to load.
     </noscript>
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/materialize.min.js"></script>
+
     <div id="app"></div>
     <!-- Todo: only include in production -->
     <%= htmlWebpackPlugin.options.serviceWorkerLoader %>
     <!-- built files will be auto injected -->
-    <script src="/static/js/materialize.min.js"></script>
   </body>
 </html>
