@@ -3,7 +3,7 @@
 		<div class="row">
 			<blockquote>Estatísticas das tarefas</blockquote>
       <ul class="collection">
-        <li class="collection-item" v-for="todo in todos">{{todo.done}} - {{todo.title}}</li>
+        <li class="collection-item" v-for="todo in todos" :key="todo.id">{{todo.done}} - {{todo.title}}</li>
       </ul>
       </div>
 		</div>
