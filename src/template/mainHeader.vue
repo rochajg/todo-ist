@@ -7,6 +7,7 @@
         <ul class="right hide-on-med-and-down">
           <li><router-link to="/">Início</router-link></li>
           <li><router-link to="list">Lista</router-link></li>
+          <li><router-link to="stats">Estatísticas</router-link></li>
         </ul>
       </div>
     </nav>
@@ -14,6 +15,7 @@
     <ul class="sidenav" id="mobile-menu">
       <li><router-link to="/">Início</router-link></li>
       <li><router-link to="list">Lista</router-link></li>
+      <li><router-link to="stats">Estatísticas</router-link></li>
     </ul>
   </div>
 </template>
